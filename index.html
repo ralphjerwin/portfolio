@@ -6,27 +6,44 @@
         <title>Portfolio</title>
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
             <div class="container">
-                <div class="flex-group ">
+                <div class="grid ">
                     <div class="brand flex-group">
                         <img src="./assets/images/logo.webp" alt>
                         <div class="email">
-                            <p>ral@mail.com</p>
+                            <p>ralphjerwin.dev@mail.com</p>
                         </div>
                     </div>
                     <div class="menu flex-group">
                         <nav>
-                            <ul>
-                                <li>Services</li>
-                                <li>Services</li>
-                                <li>Services</li>
-                                <li>Services</li>
-                                <li>Services</li>
-                                <li>Services</li>
-                            </ul>
+                            <div class="nav-container">
+                                <div class="hamburger" onclick="toggleMenu()">
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                </div>
+                                <ul class="nav-list">
+                                    <li>
+                                        <a href="#"> Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Works</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Resume</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Skill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </nav>
                         <div class="cta">
                             <button>
@@ -37,6 +54,73 @@
                 </div>
             </div>
         </header>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="flex">
+                        <div class="item">
+                            <div class="hero-content-box">
+                                <span class="hero-sub-title">I am Ralph</span>
+                                <h1 class="hero-title">Web Developer + UX Designer</h1>
+                                <div class="hero-image-box hide-desktop">
+                                    <img src="./assets/images/hero_img.webp" alt="">
+                                </div>
+                                <p class="lead">I break down complex user experience problems to create integrity focussed solutions that connect billions of people</p>
+                                <div class="button-box">
+                                    <a href="#" class="btn">Download CV
+                                        <i class="fa-solid fa-download"></i>
+                                    </a>
+                                    <ul>
+                                        <li> 
+                                            <a href=""> <i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i aria-hidden="true" class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i aria-hidden="true" class="fab fa-dribbble"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i aria-hidden="true" class="fab fa-github"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hero-image-box show-desktop">
+                                <img src="./assets/images/hero_img.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="e-con-boxed">
+            <div class="container">
+                <div class="e-con-inner">
+                    <div class="funfact-item">
+                        <div class="number">
+                            1
+                        </div>
+                        <div class="text">
+                            Year Of Experience
+                        </div>
+                    </div>
+                    <div class="funfact-item">
+                        <div class="number">
+                            2
+                        </div>
+                        <div class="text">
+                            Project Completed
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
         <script src="./dist/bundle.js"></script>
     </body>
 </html>

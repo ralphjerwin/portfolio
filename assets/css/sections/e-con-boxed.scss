@@ -1,0 +1,20 @@
+.e-con-boxed{
+    padding-top: 100px;
+    .container{
+        .e-con-inner{
+            display: flex;
+          
+            .funfact-item{
+                width: 50%;
+                display: flex;
+                .number{
+                    color: #8750f7;
+                    font-size: 4rem;
+                }
+                .text{
+                    color: #8750f7;
+                }
+            }
+        }
+    }
+}
