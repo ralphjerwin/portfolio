@@ -72,7 +72,13 @@
                                 padding: 15px 30px;
                                 border-radius: 25px;
                                 text-decoration: none;
+                                color: #8750f7
 
+                            }
+                            .btn:hover{
+                                background-color: #8750f7;
+                                color:#F6F3FC;
+                                transition: all 0.6s ease;
                             }
                             ul{
                                 display: flex;
@@ -87,8 +93,23 @@
                                         padding: 5px 10px;
                                     }
                                 }
+                                li:hover{
+                                    a{
+                                        background-color: #8750f7;
+                                        color:#F6F3FC;
+                                        transition: all 0.6s ease; 
+                                    }
+
+                                }
                             }
                         }
+
+                        // .button-box:hover{
+                        //     .btn{
+                        //         background-color: #8750f7;
+                        //         color:#F6F3FC;
+                        //     }
+                        // }
                     }
 
                     .show-desktop{

@@ -1,0 +1,123 @@
+
+.services{
+    padding-top: 100px;
+    background-color: #F6F3FC;
+    .container{
+        .section-header{
+            margin-bottom: 50px;
+            .section-title{
+                text-align: center;
+                font-size: 3rem;
+                // background-image: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
+                color: #7645d9;
+            }
+            .text-content{
+                margin-top: 20px;
+                text-align: center;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                p{
+                    width: 660px;
+                }
+            }
+        }
+        .row{
+            .flex{
+                .item{
+                    .services-widget{
+                        .service-item{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            column-gap: 20px;
+                            position: relative;
+                            @media(max-width: 768px){
+                                flex-direction: column;
+                            }
+                            .left-box{
+                                display: flex;
+                                width: calc(40% - 10px);
+                                padding: 30px 0;
+                                gap: 20px;
+                                align-items: center;
+                                padding-left: 20px;
+                                @media(max-width: 768px){
+                                    width:100%;
+                                    justify-content: center;
+                                }
+                                .number{
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                    transition: all 0.5s ease;
+                                    color: #7645d9;
+
+                                }
+                             
+                                .service-title{
+                                    transition: all 0.5s ease;
+                                    color: #7645d9;
+                                    font-size: 30px;
+                                    margin-bottom: 0;
+                                    text-transform: capitalize;
+                                }
+                            }
+                            .right-box{
+                                width: calc(60% - 10px);
+                                padding: 30px 0;
+                                padding-right: 15%;
+                                @media(max-width: 768px){
+                                    width:100%;
+                                    text-align: center;
+                                    padding: unset;
+                                }
+                                p{
+                                    transition: all 0.5s ease;
+                                    color: #2a1454;
+                                }
+                            }
+                            .fa-solid{
+                                color:#7645d9;
+                                font-size: 20px;
+                                padding-right: 20px;
+                            }
+                            .service-link{
+                                border: none;
+                                padding: 0;
+                                margin: 0;
+                                background: transparent;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                z-index: 1;
+                                
+                            }
+                            
+                        }
+                        .service-item:hover{
+                            background-color: #7645d9;
+
+                            .left-box{
+                                .number, .service-title{
+                                    color: #F6F3FC;
+                                }
+                                
+                            }
+                            .right-box{
+                                p{
+                                    color: #F6F3FC;
+                                }
+                            }
+                            .fa-solid{
+                                color: #F6F3FC;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
