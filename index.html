@@ -11,9 +11,9 @@
     <body>
         <header>
             <div class="container">
-                <div class="grid ">
+                <div class="grid">
                     <div class="brand flex-group">
-                        <img src="./assets/images/logo.webp" alt>
+                        <img class="menu-logo" src="./assets/images/logo.webp" alt="Logo">
                         <div class="email">
                             <p>ralphjerwin.dev@mail.com</p>
                         </div>
@@ -27,21 +27,11 @@
                                     <div class="bar"></div>
                                 </div>
                                 <ul class="nav-list">
-                                    <li>
-                                        <a href="#"> Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Works</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Resume</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Skill</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact</a>
-                                    </li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Works</a></li>
+                                    <li><a href="#">Resume</a></li>
+                                    <li><a href="#">Skill</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -54,7 +44,7 @@
                 </div>
             </div>
         </header>
-
+        
         <section class="banner">
             <div class="container">
                 <div class="row">
@@ -137,44 +127,48 @@
                                     <div class="left-box">
                                         <span class="number">01</span>
                                         <h3 class="service-title">Branding Design</h3>
+                                        <i class="fa-solid fa-arrow-up-long hide-desktop"></i>
                                     </div>
                                     <div class="right-box">
                                         <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
                                     </div>
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                                    <i class="fa-solid fa-arrow-up-long show-desktop"></i>
                                     <a href="" class="service-link"></a>
                                 </div>
                                 <div class="service-item">
                                     <div class="left-box">
                                         <span class="number">02</span>
                                         <h3 class="service-title">UI/UX Design</h3>
+                                        <i class="fa-solid fa-arrow-up-long hide-desktop"></i>
                                     </div>
                                     <div class="right-box">
                                         <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
                                     </div>
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                                    <i class="fa-solid fa-arrow-up-long show-desktop"></i>
                                     <a href="" class="service-link"></a>
                                 </div>
                                 <div class="service-item">
                                     <div class="left-box">
                                         <span class="number">03</span>
                                         <h3 class="service-title">Web Design</h3>
+                                        <i class="fa-solid fa-arrow-up-long hide-desktop"></i>
                                     </div>
                                     <div class="right-box">
                                         <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
                                     </div>
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                                    <i class="fa-solid fa-arrow-up-long show-desktop"></i>
                                     <a href="" class="service-link"></a>
                                 </div>
                                 <div class="service-item">
                                     <div class="left-box">
                                         <span class="number">04</span>
                                         <h3 class="service-title">Web Developer</h3>
+                                        <i class="fa-solid fa-arrow-up-long hide-desktop"></i>
                                     </div>
                                     <div class="right-box">
                                         <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
                                     </div>
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                                    <i class="fa-solid fa-arrow-up-long show-desktop"></i>
                                     <a href="" class="service-link"></a>
                                 </div>
                             </div>
@@ -183,8 +177,306 @@
                 </div>
             </div>
         </section>
+
+        <section class="recent-work">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Recent Works</h2>
+                </div>
+                <div class="button-container">
+                    <div class="button-group">
+                        <button class="portfolio-filter active">All</button>
+                        <button class="portfolio-filter">App</button>
+                        <button class="portfolio-filter">Branding</button>
+                        <button class="portfolio-filter">UX/UI</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="flex">
+                        <div class="item">
+                            <div class="portfolio-box">
+                                <div class="portfolio-item">
+                                    <div class="img-box">
+                                        <img src="./assets/images/portfolio-3.webp" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h3 class="portfolio-title">Deloitte</h3>
+                                        <p>Project was about precision and information.</p>
+                                        <a href="" class="portfolio-link"></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-item">
+                                    <div class="img-box">
+                                        <img src="./assets/images/portfolio-3.webp" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h3 class="portfolio-title">Deloitte</h3>
+                                        <p>Project was about precision and information.</p>
+                                        <a href="" class="portfolio-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-experience">
+            <div class="container">
+                <div class="row">
+                    <div class="flex">
+                        <div class="item">
+                            <div class="section-header">
+                                <h2 class="section-title">
+                                   <i class="fa-solid fa-house-laptop"></i>
+                                    My Experience
+                                </h2>
+                            </div>
+                            <div class="resume-widget">
+                                <div class="resume-item">
+                                    <div class="time"> 2022 - Present</div>
+                                    <div class="resume-title"> Lead Developer </div>
+                                    <div class="institute"> Blockdots, London </div>
+                                </div>
+                            </div>
+                            <div class="resume-widget">
+                                <div class="resume-item">
+                                    <div class="time"> 2021 - 2022</div>
+                                    <div class="resume-title"> Full Stack Web Developer </div>
+                                    <div class="institute"> Parsons, The New School</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="section-header">
+                                <h2 class="section-title">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    My Education
+                                </h2>
+                            </div>
+                            <div class="resume-widget">
+                                <div class="resume-item">
+                                    <div class="time"> 2020 - 2023</div>
+                                    <div class="resume-title"> Programming course </div>
+                                    <div class="institute"> Harverd University </div>
+                                </div>
+                            </div>
+                            <div class="resume-widget">
+                                <div class="resume-item">
+                                    <div class="time"> 2016 - 2020</div>
+                                    <div class="resume-title"> Graphic design course </div>
+                                    <div class="institute"> University of Denmark</div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"> My Skills </h2>
+                    <div class="desc">
+                        <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="flex">
+                        <div class="item">
+                            <div class="skills-widget">
+                                <div class="skill-item">
+                                    <div class="skill-inner">
+                                        <div class="icon-box">
+                                            <img src="./assets/images/figma.webp" alt="">
+                                        </div>
+                                        <div class="number">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <p>Figma</p>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-inner">
+                                        <div class="icon-box">
+                                            <img src="./assets/images/figma.webp" alt="">
+                                        </div>
+                                        <div class="number">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <p>Figma</p>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-inner">
+                                        <div class="icon-box">
+                                            <img src="./assets/images/figma.webp" alt="">
+                                        </div>
+                                        <div class="number">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <p>Figma</p>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-inner">
+                                        <div class="icon-box">
+                                            <img src="./assets/images/figma.webp" alt="">
+                                        </div>
+                                        <div class="number">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <p>Figma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
        
-        <script src="./dist/bundle.js"></script>
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="flex">
+                        <div class="item">
+                            <div class="contact-form">
+                                <div class="header-text">
+                                    <h2 class="section-title">Let’s work together!</h2>
+                                    <div class="desc">
+                                        <p>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
+                                    </div>
+                                </div>
+                                <form action="">
+                                    <div class="contact-form-fields">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span>
+                                                    <input type="text" placeholder="First name">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span>
+                                                    <input type="text" placeholder="Last name">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span>
+                                                    <input type="text" placeholder="Email address">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span>
+                                                    <input type="text" placeholder="Phone number">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form_group">
+                                                <span>
+                                                    <select name="Services" id="">
+                                                        <option value="">—Please choose an option—</option>
+                                                        <option value="Branding Design">Branding Design</option>
+                                                        <option value="Web Design">Web Design</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form_group">
+                                                <span>
+                                                    <textarea name="message" rows="10" cols="40" id="message" placeholder="Message"></textarea>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form_btn">
+                                                <button type="submit" class="btn ">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="contact-info-list">
+                                <ul class="ul-reset">
+                                    <li>
+                                        <div class="icon-box">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </div>
+                                        <div class="text-box">
+                                            <p>Phone</p>
+                                            <a href="">+01 123 654 8096</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-box">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="text-box">
+                                            <p>Email</p>
+                                            <a href="">ralphjerwin.dev@gmail.com</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-box">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </div>
+                                        <div class="text-box">
+                                            <p>Address</p>
+                                            <a href="">Care Tarlac City</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="tj-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="center">
+                        <div class="footer-logo-box">
+                            <a href=""><img src="./assets/images/logo-primary.webp" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="item">
+                            <div class="footer-menu">
+                                <ul id="menu-footer-menu">
+                                    <li>Services</li>
+                                    <li>Works.</li>
+                                    <li>Skills.</li>
+                                    <li>Experience.</li>
+                                </ul>
+                            </div>
+                            <div class="copy-text">
+                                <p>
+                                    © 2024 All Rights Reserved by 
+                                    <a href="">ThemeJunction</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./dist/bundle.js">
+
+        </script>
     </body>
 </html>
 

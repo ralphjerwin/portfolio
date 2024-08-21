@@ -37,3 +37,15 @@ html {
 .flex-group{
     display: flex;
 }
+
+.show-desktop{
+    @media(max-width: 768px){
+        display: none;
+    }
+}
+.hide-desktop{
+    display: none;
+    @media(max-width: 768px){
+        display: block;
+    }
+}

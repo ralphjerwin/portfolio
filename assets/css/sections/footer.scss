@@ -1,0 +1,53 @@
+.tj-footer-area{
+    background-color: #2a1454;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container{
+        .row{
+            text-align: center;
+
+            .center{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 27px;
+                margin-top: 27px;
+                .footer-logo-box{
+                    max-width: 75px;
+                    a{
+                        img{
+                            height: auto;
+                            max-width: 100%;
+                        }
+                    }
+                }
+
+            }
+            .flex{
+                .item{
+                    .footer-menu{
+                        #menu-footer-menu{
+                            list-style: none;
+                            display: flex;
+                            justify-content: center;
+                            gap: 25px;
+                            margin: 0 0 27px;
+                            color: white;
+                            li{
+                                
+                            }
+                        }
+                    }
+                    .copy-text{
+                        p{
+                            color: #8750f7;
+                        }
+                        a{
+                            color: #8750f7;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

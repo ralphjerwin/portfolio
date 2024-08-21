@@ -1,0 +1,196 @@
+.contact{
+    padding-top: 100px;
+    background: #F6F3FC;
+    padding-bottom: 100px;
+    .container{
+        .row{
+            .flex{
+                display: flex;
+                align-items: center;
+                gap: 120px;
+
+                @media(max-width: 768px){
+                    flex-direction: column-reverse;
+                    
+                }
+                .item{
+                    width: 50%;
+                    @media(max-width: 768px){
+                        width: 100%;
+                        padding: 0 50px;
+                        
+                    }
+                    .contact-form{
+                        background-color: #FFFFFF;
+                        padding: 50px;
+                        .header-text{
+                            margin: 0px 0px 50px 0px;
+                            .section-title{
+                                font-size: 3rem;
+                                color: #7645d9;
+
+                                @media(max-width: 768px){
+                                    font-size: 2.5rem;
+                                }
+                            }
+                            .desc{
+                                margin-top: 15px;
+                                p{
+
+                                }
+                            }
+                        }
+                        form{
+                            .contact-form-fields{
+                                display: flex;
+                                flex-wrap: wrap;
+                                .col-sm-6{
+                                    flex: 0 0 auto;
+                                    width: 50%;
+                                    padding: 0 8px;
+
+                                    @media(max-width: 768px){
+                                        width: 100%;
+                                    }
+
+                                    .form-group{
+                                        margin-bottom: 15px;
+                                        width: 100%;
+                                        span{
+                                            input{
+                                                background: #f6f3fc;
+                                                color: #2a1454;
+                                                display: block;
+                                                width: 100%;
+                                                font-size: 16px;
+                                                line-height: 1.5;
+                                                padding: 14px 20px;
+                                                border-radius: 8px;
+                                                transition: all 0.3s 0s ease-out;
+                                                outline: none;
+                                                height: auto;
+                                            }
+                                        }
+                                    }
+                                }
+                                .col-12{
+                                    flex: 0 0 auto;
+                                    width: 100%;
+                                    padding: 0 8px;
+                                    .form_group{
+                                        margin-bottom: 15px;
+                                        width: 100%;
+                                        span{
+                                            select{
+                                                background-color: #f6f3fc;
+                                                width: 100%;
+                                                font-size: 16px;
+                                                line-height: 1.5;
+                                                padding: 14px 20px;
+                                                border-radius: 8px;
+                                                -o-transition: all 0.3s 0s ease-out;
+                                                transition: all 0.3s 0s ease-out;
+                                                outline: none;
+                                                height: auto;
+                                                option{
+
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .form_group{
+                                        margin-bottom: 15px;
+                                        width: 100%;
+                                        span{
+                                            textarea{
+                                                background: #f6f3fc;
+                                                color: #2a1454;
+                                                height: 200px;
+                                                width: 100%;
+                                                font-size: 16px;
+                                                line-height: 1.5;
+                                                padding: 14px 20px;
+                                                border-radius: 8px; 
+                                                -o-transition: all 0.3s 0s ease-out;
+                                                transition: all 0.3s 0s ease-out;
+                                                outline: none;
+                                                height: auto;
+                                            }
+                                        }
+                                    }
+
+                                    .form_btn{
+
+                                        .btn{
+                                            padding: 20px 35px;
+                                            cursor: pointer;
+                                            text-decoration: none;
+                                            display: inline-flex;
+                                            gap: 10px;
+                                            justify-content: center;
+                                            font-size: 15px;
+                                            line-height: 1;
+                                            font-weight: 700;
+                                            color: #ffffff;
+                                            background-size: 200%;
+                                            border: none;
+                                            border-radius: 50px;
+                                            transition: 0.4s;
+                                            background-color: #7645d9 ;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contact-info-list{
+
+                        .ul-reset{
+                            list-style: none;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 40px;
+                            li{
+                                display: flex;
+                                align-items: center;
+                                flex-wrap: wrap;
+                                .icon-box{
+                                    width: 50px;
+                                    height: 50px;
+                                    display: inline-flex;
+                                    -ms-flex-align: center;
+                                    align-items: center;
+                                    -ms-flex-pack: center;
+                                    justify-content: center;
+                                    border-radius: 50%;
+                                    background-image: linear-gradient(161deg, #2a1454 0%, #8750f7 100%);
+                                    .fa-solid{
+                                        color: white;
+                                    }
+                                }
+                                .text-box{
+                                    padding-left: 50px;
+
+                                    @media(max-width: 400px){
+                                        padding: unset;
+                                    }
+                                    p{
+                                        margin-bottom: 3px;
+                                    }
+                                    a{
+                                    font-size: 20px;
+                                    font-weight: var(--tj-fw-medium);
+                                    text-decoration: none;
+                                    transition: all 0.4s ease-in-out 0s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

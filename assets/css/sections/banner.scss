@@ -19,7 +19,7 @@
 
                         @media(max-width: 768px){
                             text-align: center;
-                            
+                            padding: 0 50px;
                         }
 
                         .hero-sub-title{
@@ -34,8 +34,8 @@
                             font-size: 4rem;
                             margin-bottom: 15px;
 
-                            @media(max-width: 500px){
-                                font-size: 3rem;
+                            @media(max-width: 768px){
+                                font-size: 2.5rem;
                             }
                            
                         }
