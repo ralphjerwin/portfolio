@@ -4,6 +4,10 @@
     .container{
         .e-con-inner{
             display: flex;
+
+            @media(max-width: 1024px){
+                padding: 100px 20px;
+            }
           
             .funfact-item{
                 width: 50%;

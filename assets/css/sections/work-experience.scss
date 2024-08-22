@@ -2,6 +2,10 @@
     padding-top: 100px;
     background: #F6F3FC;
     padding-bottom: 100px;
+
+    @media(max-width: 1024px){
+        padding: 100px 20px 0 20px;
+    }
     .container{
         .row{
             .flex{
@@ -54,6 +58,10 @@
                                 margin-bottom: 8px;
                                 color: #2a1454;
                                 font-weight: 700;
+
+                                @media(max-width: 768px){
+                                    font-size: 20px;
+                                }
                             }
                             .institute{
 

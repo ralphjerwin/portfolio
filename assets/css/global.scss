@@ -3,7 +3,9 @@
 $primary : "#7645d9";
 $primary-font: Sora,sans-serif;
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 .main-font {
     font-family: Sora, sans-serif;

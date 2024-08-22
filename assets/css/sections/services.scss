@@ -6,6 +6,9 @@
     .container{
         .section-header{
             margin-bottom: 50px;
+            @media(max-width: 768px){
+                padding: 0 50px;
+            }
             .section-title{
                 text-align: center;
                 font-size: 3rem;

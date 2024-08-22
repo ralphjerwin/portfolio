@@ -47,6 +47,9 @@
                         gap: 50px;
                         flex-wrap: wrap;
                         justify-content: center;
+                        @media(min-width: 769px){
+                            margin: 0 20px;
+                        }
                         @media(max-width: 768px){
                             padding: 0 50px;
                         }
@@ -69,7 +72,12 @@
                                     border: none;
                                     border-radius: 0;
                                     box-shadow: none;
+                                    object-fit: contain;
 
+                                    @media(min-width: 769px){
+                                        min-height: 450px;
+                                        
+                                    }
                                 }
                             }
                             .content-box{

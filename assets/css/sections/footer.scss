@@ -31,9 +31,11 @@
                             justify-content: center;
                             gap: 25px;
                             margin: 0 0 27px;
-                            color: white;
                             li{
-                                
+                                a{
+                                    color: white;
+                                    text-decoration: none;  
+                                }
                             }
                         }
                     }

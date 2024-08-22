@@ -3,6 +3,10 @@ $primary-font: Sora, sans-serif;
 
 header{
     padding-top: 50px;
+
+    @media(max-width: 1024px){
+        padding: 50px 20px 0 20px;
+    }
     .container{
         .grid{
             display: grid;
@@ -10,12 +14,13 @@ header{
             align-items: center;
 
             @media(max-width: 768px){
-                grid-template-columns: 35% auto;
+                grid-template-columns: 50% auto;
                 padding: 10px 20px;
             }
             .brand{
                 align-items: center;
                 justify-content: space-between;
+                gap: 10px;
                 .menu-logo{
                     width: 60px;
                     height: 60px;
@@ -25,9 +30,14 @@ header{
                     @media(max-width: 768px){
                         display: none;
                     }
-                    p{
+                    a{
+                        color: #2a1454;
+                        text-decoration: none;
+                        p{
 
+                        }
                     }
+
                 }
             }
         }
@@ -35,6 +45,7 @@ header{
             align-items: center;
             @media(max-width: 768px){
                 gap: 40px;
+                flex-direction: row-reverse;
             }
             nav{
                 margin-left: auto;
@@ -49,7 +60,7 @@ header{
                             display: flex;
                         }
                         .bar{
-                            background-color: black;
+                            background-color: #8750f7 ;
                             height: 3px;
                             width: 25px;
                             margin: 4px 0;
@@ -65,12 +76,19 @@ header{
                         @media(max-width: 768px){
                             display: none;
                             flex-direction: column;
-                            width: 100%;
-                            background-color: #333;
                             position: absolute;
-                            top: 80px; /* Adjust as needed */
+                            top: 113px; 
                             right: 0;
                             z-index: 1000;
+                            overflow: hidden;
+                            position: fixed;
+                            width: 100%;
+                            min-height: 90vh;
+                            height: 90%;
+                            background-color: #2a1454;
+                            transition: all 0.4s ease-in-out 0s;
+                            padding-bottom: 50px;
+                        
                         }
                         li{
                             list-style: none;
@@ -78,7 +96,7 @@ header{
 
                             @media(max-width: 768px){
                                 padding: 15px;
-                                text-align: center;
+                              
                             }
 
                             a{
@@ -88,19 +106,25 @@ header{
                                 font-weight: 600;
                                 @media(max-width: 768px){
                                     color: white;
+                                    font-size: 22px;
                                 }
                             }
                         }
                     }
-                    .nav-list:active{
+                    .nav-list.active{
                         @media(max-width: 768px){
                             display: flex;
+                            transition: all 0.6s ease;
                         }
                     }
                 }
             }
             .cta{
                 margin-left: 55px;
+
+                @media(max-width: 912px){
+                    margin-left: 10px;
+                }
                 @media(max-width: 768px){
                     margin-left: 0;
                 }
@@ -110,6 +134,10 @@ header{
                     padding: 17px 35px;
                     border: none;
                     border-radius: 35px;
+
+                    @media(max-width: 768px){
+                        padding: 15px 15px;  
+                    }
                     span{
                         font-size: 15px;
                         font-family: $primary-font;
