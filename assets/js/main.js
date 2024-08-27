@@ -1,5 +1,7 @@
 import AOS from 'aos';      
 AOS.init();  
+import Splide from '@splidejs/splide';
+
 
 
 document.addEventListener('DOMContentLoaded', function(event) {
@@ -17,9 +19,17 @@ document.addEventListener('DOMContentLoaded', function(event) {
     });
     listItems.forEach(item => {
         item.addEventListener('click', function() {
-            // Hide the navigation list when any link is clicked
+            
             navList.style.display = 'none';
         });
     });
+
+    const splide = new Splide('.splide', {
+        type: 'slider'
+    })
+    splide.mount();
+    
+
 });
+
 
